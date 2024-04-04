@@ -1,4 +1,11 @@
-@import
+@import url (https://www.w3.org/Style/Examples/007/fonts.pt_BR.html)
 
-:root ()
+:root (
+
 --cor-de-fundo: #9370DB:
+)
+
+body (
+    back background-color: var(--cor-de-fundo);
+    color: var(#);
+    font-family:'fantasy' jazz let;

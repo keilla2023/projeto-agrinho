@@ -87,7 +87,8 @@ body {
 }
 
 .aba-conteudo-titulo-principal{
-    font-size: 40px;
+    font-size: 40px; 
+    //40 sobre nós
     text-align: center;
 }
 .aba-conteudo-titulo-secundario{

@@ -3,18 +3,12 @@
 :root {
     --cor-de-fundo: #d67483;
     --verde: #302e2eda;
-    --branco: #000000;
+    --branco: #e20808;
     --botao-ativo: #ae9cee;
     --botao-inativo: rgb(237, 145, 240);
     --texto-fundo: rgb(137, 80, 151);
 }
 
-header{
-        h1{
-    color: #f50707;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px;
-}}
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);

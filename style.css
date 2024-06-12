@@ -19,7 +19,7 @@ header{
 body {
     <script src="main.js"></script>
     background-color: var(--cor-de-fundo);
-    color: var(--branco);
+    color: var(--cor-de-fundo);
     font-family: 'Chakra Petch', sans-serif;
 }
 

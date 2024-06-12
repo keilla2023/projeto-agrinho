@@ -9,11 +9,12 @@
     --texto-fundo: rgb(137, 80, 151);
 }
 
-h1{
+    header{
+        h1{
     color: #f50707;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
-}
+}}
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);

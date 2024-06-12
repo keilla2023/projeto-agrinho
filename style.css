@@ -9,6 +9,11 @@
     --texto-fundo: rgb(137, 80, 151);
 }
 
+header{
+    color:aquamarine
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 40px
+}
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);

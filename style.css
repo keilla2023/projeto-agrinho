@@ -10,7 +10,11 @@
 }
 header{
     background-color:(--cor-de-fundo);
-    color: (--verde);
+    h1{
+        color: (--verde);
+        text-align: center;
+        max-width: 1200px;
+    } 
 }
 
 body {

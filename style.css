@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1174c5;
+    --cor-de-fundo: #56a7e9;
     --verde: #000000;
     --branco: #000000;
     --botao-ativo: #ae9cee;
@@ -46,7 +46,7 @@ body {
     font-size: 20px;
     align-items: center;
     width: 100%;
-    border-bottom: 40px solid var(--botao-ativo);
+    border-bottom: 20px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;

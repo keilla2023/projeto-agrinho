@@ -8,6 +8,10 @@
     --botao-inativo: rgb(237, 145, 240);
     --texto-fundo: rgb(137, 80, 151);
 }
+header{
+    background-color:(--cor-de-fundo);
+    color: (--verde);
+}
 
 body {
     background-color: var(--cor-de-fundo);

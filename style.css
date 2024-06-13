@@ -13,7 +13,7 @@ header{
     h1{
         color: (--verde);
         text-align: center;
-        font-size: 70px;
+        font-size: 80px;
     } 
 }
 
@@ -54,7 +54,7 @@ body {
     font-size: 20px;
     align-items: center;
     width: 100%;
-    border-bottom: 20px solid var(--botao-ativo);
+    border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
@@ -76,8 +76,8 @@ body {
 
 .abas-textos{
     background-color: var(--texto-fundo);
-    padding: 500px;
-    border-radius: 0 0 800px 800px;
+    padding: 300px;
+    border-radius: 0 0 40px 40px;
 }
 .aba-conteudo.ativo{
     display:block;
@@ -89,7 +89,8 @@ body {
 
 .aba-conteudo-titulo-principal{
     font-size: 70px; 
-    text-align: center;
+    text-align: center;}
+
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);

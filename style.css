@@ -81,9 +81,7 @@ body {
 
 .aba-conteudo-titulo-principal{
     font-size: 70px; 
-    //40 sobre nós
     text-align: center;
-}
 .aba-conteudo-titulo-secundario{
     text-align: center;
     color: var(--verde);

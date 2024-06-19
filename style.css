@@ -5,7 +5,7 @@
     --botao-inativo: #40f84086;
     --texto-fundo: rgb(155, 76, 3);
 }
-.cabeçalho{
+.cabecalho{
     background-color: var(--botao-ativo);
     color: (var(--preto));
     display: inline-flex;
@@ -13,11 +13,11 @@
     align-items: center;
 }
 
-.cabeçalho-imagem{
+.cabecalho-imagem{
     width: 120px;
 }
 
-.cabeçalho-titulo {
+.cabecalho-titulo {
     font-size: 80px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -6,11 +6,15 @@
     --texto-fundo: rgb(155, 76, 3);
 }
 
+body{
+    background-image: linear-gradient(#006e2a,#40f886 );
+}
+
 .cabecalho{
     background-color: var(--botao-ativo);
     color: (var(--preto));
-    display: inline-flex;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -21,10 +25,6 @@
 .cabecalho-titulo{
     font-size: 80px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-}
-
-body{
-    background-image: linear-gradient(#006e2a,#40f886 );
 }
 
 .conteudo-principal{

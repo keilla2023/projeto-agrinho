@@ -1,30 +1,39 @@
 :root{
-    --cor-de-fundo: #bdfcc8;
+    --cabecalho: #000800;
+    --cor-de-fundo: #000000;
+    --cor-de-fundo2: #004e0d;
     --preto: #000000;
+    --branco: #fff;
     --botao-ativo: #006e2a;
     --botao-inativo: #40f886;
     --texto-fundo: rgb(155, 76, 3);
 }
 
-body{
-    background-image: linear-gradient(#006e2a,#40f886 );
+*{
+    margin: 0;
+    padding: 0;
 }
 
 .cabecalho{
-    background-color: var(--botao-ativo);
-    color: (var(--preto));
+    background-color: var(--cabecalho);
+    color: var(--branco);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
 .cabecalho-imagem{
-    width: 20%;
+    width: 10%;
+    padding: 0 50px;
 }
 
 .cabecalho-titulo{
     font-size: 80px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+body{
+    background-image: linear-gradient(var(--cor-de-fundo), var(--cor-de-fundo2));
 }
 
 .conteudo-principal{

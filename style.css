@@ -130,3 +130,26 @@ body{
     height: 60px;
     padding: 12px 0;
 }
+
+.video-2{
+    width: 300px;
+}
+
+.foto-parceiro1{
+    width: 200px;
+}
+
+.imagem-dos-parceiros{
+    display: grid;
+    grid-template-columns: 10% 30% 10% 30% 10%;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 3px;
+    align-items:center ;
+}
+
+.estudante-nome{
+    text-align: center;
+}

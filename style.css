@@ -99,7 +99,7 @@ body{
 }
 
 .imagem-botao-um{
-    width: 700px;
+    width: 900px;
 }
 
 .video{
@@ -141,15 +141,25 @@ body{
 
 .imagem-dos-parceiros{
     display: grid;
-    grid-template-columns: 10% 30% 10% 30% 10%;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    align-items: center;
 }
+
+.imagem-desenvolvedoras{
+    display: grid;
+    grid-template-columns:10% 35% 10% 35% 10%;
+}
+
 
 .estudante-icone{
     width: 24px;
     padding: 3px;
-    align-items:center ;
 }
 
 .estudante-nome{
+    text-align: center;
+}
+
+.Parceiros{
     text-align: center;
 }
